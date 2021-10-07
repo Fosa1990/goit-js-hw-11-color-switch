@@ -1,10 +1,14 @@
 button {
-  border: 1px solid gold;
   padding: 20px;
-  background-color: wheat;
-  color: darkblue;
+
   text-transform: uppercase;
   font-weight: 700;
+  color: darkblue;
+  background-color: wheat;
+
+  border: 1px solid gold;
+  border-radius: 10px;
+
 }
 
 p {
@@ -17,6 +21,8 @@ p {
   background-color: wheat;
   text-transform: uppercase;
   font-weight: 500;
+
+  border-radius: 10px;
 
   outline: 1px solid gold;
 }
