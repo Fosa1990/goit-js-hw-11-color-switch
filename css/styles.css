@@ -1,0 +1,27 @@
+button {
+  border: 1px solid gold;
+  padding: 20px;
+  background-color: wheat;
+  color: darkblue;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p {
+  display: block;
+  padding: 10px;
+  max-height: 50px;
+  max-width: 300px;
+
+  color: darkblue;
+  background-color: wheat;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  outline: 1px solid gold;
+}
+
+.disabled {
+  color: rosybrown;
+  background-color: grey;
+}
