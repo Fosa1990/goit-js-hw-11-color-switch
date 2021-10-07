@@ -2,12 +2,11 @@ import refs from './refs.js';
 import colors from './colors.js';
 
 const { bodyEL, colorDisplayEL, btnStartEL, btnStopEL } = refs;
+let intervalId = null;
 
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
-
-let intervalId = null;
 
 function changeBgColor() {
   bodyEL.style.backgroundColor =
@@ -36,7 +35,7 @@ function buttonDisabledToggleFn(button) {
 }
 
 function showBgColorFn() {
-  colorDisplayEL.textContent = `BG-Color is : ${bodyEL.style.backgroundColor}`;
+  colorDisplayEL.textContent = `Body color is : ${bodyEL.style.backgroundColor}`;
   console.log(`BG-Color is : ${bodyEL.style.backgroundColor}`);
 }
 
